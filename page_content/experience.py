@@ -1,6 +1,10 @@
-st.markdown("## Professional Experience")
+import streamlit as st
+from components.interactive import display_interactive_chart
 
-st.markdown("""
+def experience_page():
+    st.markdown("## Professional Experience")
+    
+    st.markdown("""
     ### Data Science Intern
     **TechCorp Inc.** | *June 2021 - August 2021*
     
@@ -8,7 +12,7 @@ st.markdown("""
     - Developed a machine learning model to predict customer churn with 85% accuracy
     - Created interactive dashboards using Tableau to visualize key performance indicators
     - Presented findings and recommendations to senior management
-""")
+    """)
     
     st.markdown("""
     ### Research Assistant
@@ -18,8 +22,9 @@ st.markdown("""
     - Implemented and evaluated various machine learning algorithms for text classification
     - Co-authored a paper that was accepted at a regional computer science conference
     - Mentored undergraduate students on research methodologies and programming
-   
-st.markdown("""
+    """)
+    
+    st.markdown("""
     ### Software Development Intern
     **InnovateTech Solutions** | *May 2020 - August 2020*
     
@@ -27,13 +32,14 @@ st.markdown("""
     - Collaborated with a team of developers using Agile methodologies
     - Implemented new features based on user feedback and requirements
     - Participated in code reviews and testing procedures
-   """)
-
-st.markdown("---")
-@@ -40,30 +51,16 @@ def experience_page():
-
-projects = [
-{
+    """)
+    
+    st.markdown("---")
+    
+    st.markdown("## Projects")
+    
+    projects = [
+        {
             "title": "Customer Segmentation Analysis",
             "description": "Used K-means clustering to segment customers based on purchasing behavior.",
             "skills": ["Python", "scikit-learn", "Pandas", "Matplotlib"],
@@ -58,35 +64,38 @@ projects = [
             st.markdown(f"**Description:** {project['description']}")
             st.markdown(f"**Skills Used:** {', '.join(project['skills'])}")
             st.markdown(f"**Outcome:** {project['outcome']}")
-       
-
-# Add the interactive visualization demo
-with st.expander("Interactive Data Visualization Demo", expanded=False):
-@@ -79,23 +76,17 @@ def experience_page():
-with col1:
-st.markdown("""
-       ### Technical Skills
+    
+    # Add the interactive visualization demo
+    with st.expander("Interactive Data Visualization Demo", expanded=False):
+        st.markdown("**Description:** An interactive demonstration of various data visualization techniques.")
+        display_interactive_chart()
+    
+    st.markdown("---")
+    
+    st.markdown("## Professional Skills")
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.markdown("""
+        ### Technical Skills
         - **Programming Languages:** Python, R, SQL, JavaScript
         - **Machine Learning:** scikit-learn, TensorFlow, PyTorch
         - **Data Processing:** Pandas, NumPy, PySpark
         - **Visualization:** Matplotlib, Seaborn, Tableau, PowerBI
-        - **Programming Languages:** Python, R, SQL
-        - **Data Processing:** Pandas, NumPy
-       - **Cloud Platforms:** AWS, Azure, Google Cloud
+        - **Cloud Platforms:** AWS, Azure, Google Cloud
         - **Web Development:** Django, Flask, React
-       """)
-
-with col2:
-st.markdown("""
-       ### Soft Skills
+        """)
+        
+    with col2:
+        st.markdown("""
+        ### Soft Skills
         - **Communication:** Excellent written and verbal communication
         - **Teamwork:** Collaborative team player with experience in Agile environments
         - **Problem-solving:** Strong analytical and critical thinking abilities
         - **Time Management:** Efficient at prioritizing tasks and meeting deadlines
-        - **Communication:** Mandarin (Native), Cantonese (Native), English (Fluent), French (Basic)
-       - **Leadership:** Experience leading small teams and mentoring junior colleagues
-       - **Adaptability:** Quick learner who thrives in dynamic environments
-       """)
-
-    st.markdown("---") 
+        - **Leadership:** Experience leading small teams and mentoring junior colleagues
+        - **Adaptability:** Quick learner who thrives in dynamic environments
+        """)
+    
     st.markdown("---") 
