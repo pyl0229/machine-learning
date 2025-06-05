@@ -4,50 +4,19 @@ def education_page():
     st.markdown("## Education")
     
     st.markdown("""
-    ### Master of Science in Data Science
-    **University of XYZ** | *September 2020 - May 2022*
-    
-    - GPA: 3.9/4.0
-    - Thesis: "Applying Machine Learning Techniques to Predict Customer Behavior in E-commerce"
-    - Relevant Coursework: Advanced Machine Learning, Deep Learning, Natural Language Processing, Data Visualization, Statistical Methods for Data Science, Big Data Analytics
-    
-    ### Bachelor of Science in Computer Science
-    **ABC University** | *September 2016 - May 2020*
+    ### Master of Science in Marketing (Big Data Track)
+    **Chinese University of Hong Kong** | *August 2024 - October 2025*
     
     - GPA: 3.7/4.0
-    - Graduated with Honors
-    - Relevant Coursework: Algorithms and Data Structures, Database Systems, Computer Networks, Operating Systems, Software Engineering, Web Development
+    - Thesis: "Applying Big Data Techniques to Marketing"
+    - Relevant Coursework: Machine Learning, Social Media Analytics, Customer Analytics, Big Data Analytics, Marketing Research
+    
+    ### Bachelor of Arts in Business English
+    **University of International Business and Economics** | *September 2020 - July 2024*
+    
+    - GPA: 3.7/4.0
+    - Relevant Coursework: English Public Speaking, Debating in English, Business English Writing, International Trade, International Business Etiquette
     """)
-    
-    st.markdown("---")
-    
-    st.markdown("## Certifications")
-    
-    cert1, cert2, cert3 = st.columns(3)
-    
-    with cert1:
-        st.markdown("""
-        ### AWS Certified Data Analytics - Specialty
-        **Amazon Web Services** | *March 2022*
-        
-        Demonstrated expertise in designing, building, securing, and maintaining analytics solutions on AWS.
-        """)
-        
-    with cert2:
-        st.markdown("""
-        ### TensorFlow Developer Certificate
-        **Google** | *January 2022*
-        
-        Validated ability to develop deep learning models using TensorFlow.
-        """)
-        
-    with cert3:
-        st.markdown("""
-        ### Microsoft Certified: Azure Data Scientist Associate
-        **Microsoft** | *November 2021*
-        
-        Demonstrated expertise in using Azure services to train, evaluate, and deploy machine learning models.
-        """)
     
     st.markdown("---")
     
