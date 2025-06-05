@@ -9,9 +9,8 @@ def experience_page():
     **Burson Cohn & Wolfe** | *April 2024 - July 2024*
     
     - Information collection and analysis: Conducted comprehensive industry research for the Lenovo brand across platforms such as TechCrunch and Engadget.  Performed comparative data analysis to identify and articulate Lenovo's distinct competitive advantages in technology R&D, product innovation, and customer service.
-    - Developed a machine learning model to predict customer churn with 85% accuracy
-    - Created interactive dashboards using Tableau to visualize key performance indicators
-    - Presented findings and recommendations to senior management
+    - Risk early warning response: Utilized the risk matrix model to quantitatively evaluate potential risks impacting the Lenovo brand, considering both domestic and international public sentiment and policy shifts. Generated a conclusion with key areas of concern and their potential impact on the company's operations and collaborated with legal affairs team, to develop and implement mitigation strategies for identified risks. Successfully warned 2 intermediate potential risks in advance to support the maintenance of the company's business.
+    - Content output promotion: Participated in the daily operation and management of Lenovo corporate public account. Responsible for the compilation of specific content. Fostered relationships with international media outlets to enhance Lenovo's external publicity efforts. Developed and executed content strategies aligned with key publicity objectives, resulting in a 30% increase in overall exposure for the brand.
     """)
     
     st.markdown("""
