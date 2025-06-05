@@ -8,7 +8,7 @@ st.markdown("""
     - Developed a machine learning model to predict customer churn with 85% accuracy
     - Created interactive dashboards using Tableau to visualize key performance indicators
     - Presented findings and recommendations to senior management
-    """)
+""")
     
     st.markdown("""
     ### Research Assistant
