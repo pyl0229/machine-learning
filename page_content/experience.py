@@ -5,10 +5,10 @@ def experience_page():
     st.markdown("## Professional Experience")
     
     st.markdown("""
-    ### Data Science Intern
-    **TechCorp Inc.** | *June 2021 - August 2021*
+    ### Corporate Communications and Public Affairs Intern
+    **Burson Cohn & Wolfe** | *April 2024 - July 2024*
     
-    - Analyzed customer data to identify patterns and trends using Python and SQL
+    - Information collection and analysis: Conducted comprehensive industry research for the Lenovo brand across platforms such as TechCrunch and Engadget.  Performed comparative data analysis to identify and articulate Lenovo's distinct competitive advantages in technology R&D, product innovation, and customer service.
     - Developed a machine learning model to predict customer churn with 85% accuracy
     - Created interactive dashboards using Tableau to visualize key performance indicators
     - Presented findings and recommendations to senior management
