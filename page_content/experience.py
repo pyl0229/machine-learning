@@ -30,10 +30,10 @@ def experience_page():
     
     projects = [
         {
-            "title": "Customer Segmentation Analysis",
-            "description": "Used K-means clustering to segment customers based on purchasing behavior.",
-            "skills": ["Python", "scikit-learn", "Pandas", "Matplotlib"],
-            "outcome": "Identified 5 distinct customer segments that informed targeted marketing campaigns."
+            "title": "Xiaohongshu Hong Kong User Acquisition Project",
+            "description": "The project aimed to enhance Xiaohongshu's recognition and market share in Hong Kong by conducting user research to gather key insights for market strategies. Content analysis utilized big data to understand user behavior patterns and optimize content direction.",
+            "skills": ["Python", "scikit-learn", "Pandas"],
+            "outcome": "Creative marketing activities, combined with merchant collaborations and offline advertising, successfully encouraged users to download Xiaohongshu, with an expected online exposure of over 500,000."
         },
 
     ]
