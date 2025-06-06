@@ -20,18 +20,3 @@ def education_page():
     
     st.markdown("---")
     
-    st.markdown("## Academic Projects")
-    
-    st.markdown("""
-    ### Sentiment Analysis of Product Reviews
-    - Developed a deep learning model to analyze customer reviews and predict sentiment
-    - Achieved 92% accuracy using BERT and fine-tuning techniques
-    - Implemented the model as a web application using Flask
-    
-    ### Image Classification for Medical Diagnosis
-    - Created a convolutional neural network to classify medical images
-    - Worked with a dataset of X-ray images to detect pneumonia
-    - Achieved 88% accuracy and deployed the model on a cloud platform
-    """)
-    
-    st.markdown("---") 
