@@ -3,7 +3,7 @@ import base64
 import os
 
 def resume_page():
-    pdf_file_path = os.path.join("static", "docs", "resume.pdf")
+    pdf_file_path = os.path.join("static", "docs", "Yilin Peng - resume.pdf")
 
     if os.path.exists(pdf_file_path):
         with open(pdf_file_path, "rb") as pdf_file:
@@ -12,49 +12,54 @@ def resume_page():
         # Display the download button
         st.download_button(label="Download Resume",
                         data=PDFbyte,
-                        file_name="Jane_Doe_Resume.pdf",
+                        file_name="Yilin Peng - resume.pdf",
                         mime='application/octet-stream')
     else:
         st.warning("Resume PDF file not found")
 
-    st.title("Jane Doe")
+    st.title("Yilin Peng")
 
     st.header("Contact Information")
     st.markdown("""
-    - **Email:** jane.doe@example.com
-    - **Phone:** (123) 456-7890
-    - **LinkedIn:** [linkedin.com/in/janedoe](https://linkedin.com/in/janedoe)
-    - **GitHub:** [github.com/janedoe](https://github.com/janedoe)
-    - **Address:** 123 Main St, Anytown, USA
+    - **Email:** pyl100229@gmail.com
+    - **Phone:** +852 64830523 | +86 13410522403
+    - **LinkedIn:** [linkedin.com/in/yilin-peng-a44a55282/](https://www.linkedin.com/in/yilin-peng-a44a55282/)
+    - **GitHub:** [github.com/pyl0229](https://github.com/pyl0229)
+    - **Address:** Fuheng EST, TAIPO, HKSAR
     """)
 
     st.header("Professional Summary")
     st.markdown("""
-    Highly skilled software engineer with over 5 years of experience in developing scalable web applications. Proven ability to lead teams, manage projects, and improve software performance. Seeking a challenging role to utilize my technical expertise and problem-solving skills.
+    High potential candidate with master degree in Marketing in CUHK. Proven ability to lead teams, manage projects, and improve software performance. Seeking a challenging role to utilize my technical expertise and problem-solving skills.
     """)
 
-    st.header("Work Experience")
+    st.header("Intern Experience")
     st.markdown("""
-    **Software Engineer, TechCorp Inc.**
-    - *June 2019 – Present*
-    - Developed and maintained web applications using Python and JavaScript.
-    - Improved application performance by 30% through code optimization.
-    - Led a team of 5 developers, conducting code reviews and mentoring junior engineers.
-    - Collaborated with cross-functional teams to define project requirements and deliverables.
+    **Burson Cohn & Wolfe**
+    - *April 2024 – July 2024*
+    - Information collection and analysis
+    - Risk early warning response
+    - Content output promotion
 
-    **Junior Software Developer, WebSolutions LLC**
-    - *January 2017 – May 2019*
-    - Assisted in the development of client-side applications using HTML, CSS, and JavaScript.
-    - Participated in agile sprints and contributed to project planning and task estimation.
-    - Implemented unit tests and conducted debugging to ensure code quality.
+    **Banana In**
+    - *August 2022 – November 2022*
+    - Commodity Selection analysis
+    - Explosive product marketing
+    - Strategy support
     """)
 
     st.header("Education")
     st.markdown("""
-    **Bachelor of Science in Computer Science**
-    - University of Anytown
-    - *Graduated: May 2016*
-    - GPA: 3.8/4.0
+    **Master of Science in Marketing**
+    - Chinese University of Hong Kong
+    - *Graduated: October 2025*
+    - GPA: 3.7/4.0
+    """)
+    st.markdown("""
+    **Bachelor of Arts in Business English**
+    - University of International Business and Economics
+    - *Graduated: May 2024*
+    - GPA: 3.7/4.0
     """)
 
     st.header("Skills")
