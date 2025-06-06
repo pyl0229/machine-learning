@@ -34,5 +34,37 @@ def experience_page():
             "skills": ["Python", "scikit-learn", "Pandas"],
         }
     ]
+        for i, project in enumerate(projects):
+        with st.expander(f"{project['title']}", expanded=i==0):
+            st.markdown(f"**Description:** {project['description']}")
+            st.markdown(f"**Skills:** {', '.join(project['skills'])}")
     
+    # Add the interactive visualization demo
+    with st.expander("Interactive Data Visualization Demo", expanded=False):
+        st.markdown("**Description:** An interactive demonstration of various data visualization techniques.")
+        display_interactive_chart()
+    
+    st.markdown("---")
+    
+    st.markdown("## Professional Skills")
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.markdown("""
+        ### Technical Skills
+        - **Programming Languages:** Python, R, SQL
+        - **Others:** Microsoft Office, PS, CapperCut
+        """)
+        
+    with col2:
+        st.markdown("""
+        ### Soft Skills
+        - **Communication:** Mandarin (Native), Cantonese (Native), English (Fluent), French (Basic) 
+        - **Problem-solving:** Strong analytical and critical thinking abilities
+        - **Leadership:** Experience leading small teams and mentoring junior colleagues
+        - **Adaptability:** Quick learner who thrives in dynamic environments
+        """)
+    
+    st.markdown("---") 
 
