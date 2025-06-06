@@ -80,11 +80,7 @@ def resume_page():
     st.markdown("""
     **Xiaohongshu Hong Kong User Acquisition Project**
     - Enhance Xiaohongshu's recognition and market share in Hong Kong by conducting user research to gather key insights for market strategies.
-    - Content analysis utilized big data to understand user behavior patterns and optimize content direction..
-
-    **Data Analysis Tool**
-    - Created a Python-based tool for analyzing large datasets and visualizing results.
-    - Used pandas and matplotlib libraries for data manipulation and plotting.
+    - Content analysis utilized big data to understand user behavior patterns and optimize content direction.
     """)
 
     st.header("Languages")
