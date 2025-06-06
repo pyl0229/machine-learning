@@ -64,24 +64,23 @@ def resume_page():
 
     st.header("Skills")
     st.markdown("""
-    - **Programming Languages:** Python, JavaScript, Java, C++
-    - **Web Technologies:** HTML, CSS, React, Node.js, Django
-    - **Databases:** MySQL, PostgreSQL, MongoDB
-    - **Tools:** Git, Docker, Jenkins, AWS
+    - **Programming Languages:** Python, R
+    - **Databases:** MySQL, SQL Server
     - **Soft Skills:** Team Leadership, Project Management, Problem-Solving, Communication
     """)
 
     st.header("Certifications")
     st.markdown("""
-    - AWS Certified Solutions Architect
-    - Certified Scrum Master
+    - TEM-8
+    - TEM-4
+    - PSC
     """)
 
     st.header("Projects")
     st.markdown("""
-    **E-commerce Website**
-    - Developed a full-stack e-commerce application using React and Django.
-    - Integrated payment gateways and implemented user authentication.
+    **Xiaohongshu Hong Kong User Acquisition Project**
+    - Enhance Xiaohongshu's recognition and market share in Hong Kong by conducting user research to gather key insights for market strategies.
+    - Content analysis utilized big data to understand user behavior patterns and optimize content direction..
 
     **Data Analysis Tool**
     - Created a Python-based tool for analyzing large datasets and visualizing results.
@@ -90,15 +89,16 @@ def resume_page():
 
     st.header("Languages")
     st.markdown("""
-    - **English:** Native
-    - **Spanish:** Intermediate
+    - **Cantonese:** Native
+    - **English:** Fluent
+    - **French:** Intermediate
     """)
 
     st.header("Interests")
     st.markdown("""
-    - Open-source contributions
-    - Blogging about technology trends
-    - Hiking and outdoor activities
+    - Public Speeking
+    - Guzheng & Ukulele
+    - Texas Hold 'em Poker
     """)
 
     st.markdown("---") 
