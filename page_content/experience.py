@@ -59,22 +59,15 @@ def experience_page():
         st.markdown("""
         ### Technical Skills
         - **Programming Languages:** Python, R, SQL, JavaScript
-        - **Machine Learning:** scikit-learn, TensorFlow, PyTorch
-        - **Data Processing:** Pandas, NumPy, PySpark
-        - **Visualization:** Matplotlib, Seaborn, Tableau, PowerBI
-        - **Cloud Platforms:** AWS, Azure, Google Cloud
-        - **Web Development:** Django, Flask, React
+        - **Others:** Microsoft Office, PS, CapperCut
         """)
         
     with col2:
         st.markdown("""
         ### Soft Skills
-        - **Communication:** Excellent written and verbal communication
+        - **Communication:** Mandarin (Native), Cantonese (Native), English (Fluent), French (Basic)
         - **Teamwork:** Collaborative team player with experience in Agile environments
         - **Problem-solving:** Strong analytical and critical thinking abilities
-        - **Time Management:** Efficient at prioritizing tasks and meeting deadlines
-        - **Leadership:** Experience leading small teams and mentoring junior colleagues
-        - **Adaptability:** Quick learner who thrives in dynamic environments
         """)
     
     st.markdown("---") 
