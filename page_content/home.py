@@ -9,7 +9,7 @@ def home_page():
         <h4>Yilin Peng</h4>
         <p>Recent Master's Graduate in Marketing<br>
         Chinese University of Hong Kong<br>
-        12 Chak Cheung St., Ma Liu Shui, HKSAR<br>
+        Fuheng EST, TAIPO, HKSAR<br>
         <a href="mailto:pyl100229@gmail.com">pyl100229@gmail.com</a></p>
         """,
         unsafe_allow_html=True
