@@ -13,24 +13,15 @@ def experience_page():
     - Content output promotion: Participated in the daily operation and management of Lenovo corporate public account. Responsible for the compilation of specific content. Fostered relationships with international media outlets to enhance Lenovo's external publicity efforts. Developed and executed content strategies aligned with key publicity objectives, resulting in a 30% increase in overall exposure for the brand.
     """)
     
-    st.markdown("""
-    ### Research Assistant
-    **University of XYZ, Department of Computer Science** | *January 2021 - May 2021*
-    
-    - Assisted professor with research on natural language processing techniques
-    - Implemented and evaluated various machine learning algorithms for text classification
-    - Co-authored a paper that was accepted at a regional computer science conference
-    - Mentored undergraduate students on research methodologies and programming
-    """)
+
     
     st.markdown("""
-    ### Software Development Intern
-    **InnovateTech Solutions** | *May 2020 - August 2020*
+    ### Commodity Operation Intern
+    **Banana In** | *August 2022 - November 2022*
     
-    - Developed and maintained web applications using Django and React
-    - Collaborated with a team of developers using Agile methodologies
-    - Implemented new features based on user feedback and requirements
-    - Participated in code reviews and testing procedures
+    - Commodity Selection analysis: Conducted a thorough analysis of over 600 SKUs, examining sales, purchase rate, and profit rate across multiple timeframes, including sequential, year-on-year, last month, last quarter, the same period of last year, and the past year to complete a priority ranking for SKUs.  Anchored new product selections in alignment with current industry trends and performed a comparative analysis of competitive products' bestsellers against our own offerings to identify unique selling points and areas for differentiation. Leveraged our competitive advantages to enhance product differentiation in the market.
+    - Explosive product marketing: Conducted in-depth analysis to identify and target key demographics (e.g.healthconscious parents in second-tier cities), for selected explosive products. Analyzed demand pain points including product use scenarios and functions to determine primary selling points (e.g. multi-functional versions and pattern types). Developed an integrated online and offline marketing strategy focusing on key scenarios (e.g. family travel and playground activities), which included social media promotion and offline event planning, effectively increasing exposure.
+    - Strategy support: Supported strategic initiatives during peak sales seasons, monitoring market trends and consumer insights to refine product, pricing, and promotion strategies. Achieved a 20% sales boost and a 15% increase in inventory turnover for key products.
     """)
     
     st.markdown("---")
