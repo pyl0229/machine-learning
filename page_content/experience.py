@@ -35,18 +35,7 @@ def experience_page():
             "skills": ["Python", "scikit-learn", "Pandas", "Matplotlib"],
             "outcome": "Identified 5 distinct customer segments that informed targeted marketing campaigns."
         },
-        {
-            "title": "Predictive Maintenance System",
-            "description": "Developed a model to predict equipment failures before they occur.",
-            "skills": ["Python", "TensorFlow", "Time Series Analysis", "IoT"],
-            "outcome": "Reduced downtime by 23% and maintenance costs by 15%."
-        },
-        {
-            "title": "Natural Language Processing for Customer Support",
-            "description": "Created a text classification system to automatically categorize customer support tickets.",
-            "skills": ["Python", "NLTK", "spaCy", "BERT"],
-            "outcome": "Improved response time by 35% and increased customer satisfaction scores."
-        }
+
     ]
     
     for i, project in enumerate(projects):
